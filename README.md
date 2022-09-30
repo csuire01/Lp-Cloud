@@ -26,11 +26,13 @@ npm start
 
 `Que s'est-il passé  lors de la commande "npx create-react-app mon-app" et qu'est ce que "create-react-app" ?`
 
-`Si l'on éjecte "create-react-app" notre application que se passe-t-il ?`
+`Si l'on éjecte "create-react-app" de notre projet que se passe-t-il ?`
 
 `Un fichier nommé "package.json" se trouve à la racine de votre projet à quoi sert-il et que contient ce fichier précisément ? `
 
 ### Mon premier composant
+
+`Qu'est ce qu'un composant ?`
 
 `A quoi sert le fichier App.js , App.css et App.test.js ?`
 
@@ -72,6 +74,8 @@ Nous avons donc créer un composant nommé Information() celui-ci a pour objecti
 
 `Vous devez le sortir de App.js et l'insérer dans un fichier nommé Information.js et vérifier que tous fonctionne correctement.`
 
+Il est préférable de découper son code sous forme de composant, donc avoir un fichier avec un composant permet de maintenir le projet de manière plus efficace et d'avoir une lecture de celui-ci plus efficace.
+
 Nous avons donc deux fichiers un qui contient la composant App()  et un autre qui contient Information(), la prochaine étape est de pouvoir modifier le texte de la fonction d'information. 
 Pour cela, il existe ce qu'on appelle des "props", les props servent a passer en paramètre des informations a un composant.
 
@@ -103,14 +107,14 @@ Il faut donc créer une function dans le composant App() qui passe la date en pa
 
 ---
 
-Nous avons vu comment passer une information d'un composant à son enfant, mais il est aussi possible de passer de l'information d'un enfant à son parent. 
+Nous avons vu comment passer une information d'un composant parent à son enfant, mais il est aussi possible de passer de l'information d'un enfant à son parent. 
 Pour cela, il faut comprendre le hook "useState".
 
 `A quoi sert le hook "useState" et comment l'utiliser` 
 
-Une fois que nous avons compris comment fonctionne "useState", nous allons créer un qui contient un `<input/>` qui retournera un chiffre qui  sera envoyé au composant principal.
+Une fois que nous avons compris comment fonctionne "useState", nous allons créer un composant qui contient un `<input/>` qui retournera un chiffre qui  sera envoyé au composant principal.
 
-`Vous devez maintenant faire en sorte que de récupéré l'information du input dans "function App() {}" et de l'afficher dans la page`
+`Vous devez maintenant faire en sorte de récupéré l'information du input dans "function App() {}" et de l'afficher dans la page`
 
 ## Besoin d'aide ? Attention à internet
 
