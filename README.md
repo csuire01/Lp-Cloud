@@ -32,7 +32,7 @@ npm start
 
 ### Mon premier composant
 
-`Qu'est ce qu'un composant ?`
+`Qu'est ce qu'un composant en ReactJs?`
 
 `A quoi sert le fichier App.js , App.css et App.test.js ?`
 
