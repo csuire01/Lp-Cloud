@@ -130,5 +130,6 @@ Sur internet, vous trouverez beaucoup de solutions pour créer un composant. Mai
 Nous avons vu précédemment `useState` qui est un hook, il existe une multitude de hook.
 Pour le prochain cours, vous allez devoir écrire un morceau de code qui mettra en pratique le hook qui vous sera attribué et vous présenterez celui-ci en début du prochain cours.
 
+Lien diaporama : 
 
-
+https://docs.google.com/presentation/d/1OOwJxttyVc7mLsDFzbFgFdmESbjMKE_8MmS-HHAlHkU/edit?usp=sharing
