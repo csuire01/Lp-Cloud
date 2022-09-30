@@ -32,8 +32,6 @@ npm start
 
 ### Mon premier composant
 
-`Qu'est ce qu'un composant en ReactJs?`
-
 `A quoi sert le fichier App.js , App.css et App.test.js ?`
 
 `Comment notre application choisis d'afficher le contenu de App.js lors de son lancement ?`
